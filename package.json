@@ -1,13 +1,17 @@
 {
   "name": "validator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple validator module",
   "main": "dist/index.js",
   "scripts": {
+    "test": "jest",
+    "prepublishOnly": "tsc",
     "build": "tsc"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
     "typescript": "^5.5.3"
   },
   "private": true
